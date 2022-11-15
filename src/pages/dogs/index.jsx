@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import useFetch from "../../hooks/use-fetch";
+import '../../App.css'
 
 export const Dogs = () => {
   const getBreedsUrl = "https://dog.ceo/api/breeds/list/all";
