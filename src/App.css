@@ -1,13 +1,18 @@
 * {
   margin: 0;
   padding: 0;
+  
 }
 
 main a {
-  width: 50%;
-  height: 50%;
+  background: #ff9999;
   display: flex;
   justify-content: center;
-  
   flex-direction: row;
+  letter-spacing: 5px;
+  padding: 2px;
+  
+}
+a {
+  background: #cce5ff;
 }
