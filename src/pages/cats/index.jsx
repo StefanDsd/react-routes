@@ -8,7 +8,10 @@ if (breedsListLoading || !breedsList.length) return <div> loading </div>;
 if (breedsListErr) return <div> error </div>;
 
 console.log(breedsList)
+
+
 // const filteredBreeds = Object.keys(breedsList.message);
+
 
     return (
       <main>
